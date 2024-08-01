@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1" charset="UTF-8">
+        <title>Florida Practice Site</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <style>
+            body {
+                background-image: url("images/palm trees.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            table, th, td {
+                border: 2px solid;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <!--State Seal with Nav Bar-->
+        <header id="headnav">
+            <div id="stateSeal">
+                <img id="mainlogo" src="images/SoF-seal.png" alt="Florida State Seal" width="50">
+            </div>
+        <nav>
+            <ul class="navlist">
+                <li><a class="navigation" href="index.html">Home</a></li>
+                <li><a class="navigation" href="tallahassee.html">Tallahassee</a></li>
+                <li><a class="navigation" href="orlando.html">Orlando</a></li>
+                <li><a class="navigation" href="miami.html">Miami</a></li>
+                <li><a class="navigation" href="tampa.html">Tampa</a></li>
+        </nav>
+        </header>
+        <aside>
+            <h2>Florida Quick Facts</h2>
+            <ul>
+                <li>Florida, also known as the Sunshine State, is located in the southeastern region of the United States.</li>
+                <li>It is the 22nd largest state in the U.S. and the third most populous.</li>
+                <li>Florida is renowned for its beautiful beaches, amusement parks, and diverse cultural influences.</li>
+                <li>The state capital is Tallahassee, and its largest city is Jacksonville.</li>
+                <li>Florida is bordered by the Gulf of Mexico to the west, Alabama and Georgia to the north, and the Atlantic Ocean to the east.</li>
+                <li>The state's economy relies heavily on tourism, agriculture, and aerospace and defense industries.</li>            
+            </ul>
+            <p>
+                <h2>Get more information!</h2>
+            </p>
+            <form id="myForm" name="myForm" action="https://example.com/apply" onsubmit="return validateForm()" method="POST">
+                <p>
+                    <label for="first">First Name:</label>
+                    <input type="text" name="first" id="first" placeholder="First Name" required>
+                </p>
+                <p>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="last" id="last" placeholder="Last Name" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Name@domain.com" required>
+                </p>
+                <p>
+                    <label for="email">Confirm Email Address:</label>
+                    <input type="email" name="email" id="confirmEmail" placeholder="Name@domain.com" required>
+                </p>
+                <p>
+                    <input type="submit" value="submit" id="validate">
+                </p>
+        </aside>
+        <section>
+            <h1>Welcome to the Sunshine State!</h1>
+            <p>
+            <span>Welcome to the vibrant state of Florida, a captivating blend of natural beauty, diverse culture, and endless adventure.</span> <span>Known for its sunny climate, Florida boasts stunning coastlines along both the Atlantic Ocean and the Gulf of Mexico, with world-famous beaches like Miami's South Beach and the serene shores of the Gulf Coast.</span> <span>The state's unique geography includes the Everglades, a sprawling wetland teeming with wildlife, and the enchanting Florida Keys, a string of tropical islands perfect for diving and snorkeling.</span> <span>Florida's rich history is mirrored in its eclectic cities, from the bustling streets of Orlando and its iconic theme parks to the historic charm of St. Augustine, the oldest city in the U.S.</span> <span>Whether you're exploring the lively arts scene, indulging in fresh seafood, or enjoying outdoor activities, Florida offers a diverse array of experiences that cater to every interest.</span>
+            </p>
+            <p>
+                <img src="images/florida map.webp" alt="fun florida map" class="center">
+            </p>
+            <p><h2>Florida's Most Populous Cities</h2> 
+                <ol class="popCities">
+                    <li>Jacksonville</li>
+                    <li>Miami</li>
+                    <li>Tampa</li>
+                    <li>Orlando</li>
+                </ol>
+            </p>
+            <p>
+                <table style:"width=100%">
+                    <caption>Major Cities Cost of Living</caption>
+                    <tr height="75px">
+                        <th colspan="2"></th>
+                        <th>Average Home Price</th>
+                        <th>Median Rent</th>
+                        <th>Cost of Living (Compared to National Average)</th>
+                    </tr>
+                    <tr height="50px">
+                        <td colspan="2">Tallahassee</td>
+                        <td>$398,607</td>
+                        <td>$1,212</td>
+                        <td>4%&#8595;</td>
+                    </tr>
+                    <tr height="50px">
+                        <td colspan="2">Tampa</td>
+                        <td>$436,033</td>
+                        <td>$1,326</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr height="50px">
+                        <td colspan="2">Orlando</td>
+                        <td>$500,063</td>
+                        <td>$1,520</td>
+                        <td>5%&#8593;</td>
+                    </tr>
+                    <tr height="50px">
+                        <td colspan="2">Miami</td>
+                        <td>$664,195</td>
+                        <td>$2,019</td>
+                        <td>21%&#8593;</td>
+                    </tr>
+                </table>
+            </p>
+        </section>
+        <footer>
+            <a href="sitemap">Sitemap</a>
+            <a href="about">About Us</a>
+        </footer>
+    </body>
+</html>
